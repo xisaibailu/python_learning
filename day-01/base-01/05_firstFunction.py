@@ -28,11 +28,12 @@ def ChangeInt(a):
   a = 10
   print(a)  # 10
   print(b)  # 2
+  return
 
 
 b = 2
 ChangeInt(b)
-print(b)  # 结果为2
+print("b=",b)  # 结果为2
 
 
 ############不定长参数###################
