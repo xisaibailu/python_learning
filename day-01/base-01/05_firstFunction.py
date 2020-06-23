@@ -30,7 +30,6 @@ def ChangeInt(a):
   print(b)  # 2
   return
 
-
 b = 2
 ChangeInt(b)
 print("b=",b)  # 结果为2

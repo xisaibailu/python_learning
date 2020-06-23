@@ -9,6 +9,8 @@ print(tel)
 
 print(tel['jack'])  # 查询
 
+print(tel)
+
 del tel['sape']  # 删除
 print(tel)
 
@@ -25,3 +27,22 @@ print(dict(sape=4139, guido=4127, jack=4098))
 
 ###########字典推导式###########
 print({x: x ** 2 for x in (2, 4, 6)})
+
+strings = ['a', 'as', 'bat', 'car', 'dove', 'python']
+loc_mapping = {val: index for index, val in enumerate(strings)}
+print(loc_mapping)
+
+
+##########返回多个值############
+def f():
+  a = 5
+  b = 6
+  c = 7
+  return a, b, c  # 实际上返回了一个元组
+
+
+def f1():
+  a = 5
+  b = 6
+  c = 7
+  return {'a': a, 'b': b, 'c': c}  #返回一个字典

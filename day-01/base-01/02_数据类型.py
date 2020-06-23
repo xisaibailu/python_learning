@@ -54,6 +54,6 @@ print("要加号,类型才能显示为元组", type(tup4))
 dict = {"name": "runoob", "age": 7, "class": "first"}
 dict["age"] = 8  # 更新
 dict['school'] = "菜鸟"  # 添加
-del dict['name']  # 删除
+del dict['name']  # 删除o
 dict.clear()  # 清空字典
 del dict  # 删除字典

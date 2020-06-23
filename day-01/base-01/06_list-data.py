@@ -66,8 +66,10 @@ matrix = [
   [9, 10, 11, 12]
 ]
 #第一种方法
-# print([row[1] for row in matrix])
-# print([[row[i] for row in matrix]for i in range(4)])
+for i in range(4):
+    print("值为：",[row[i] for row in matrix])
+print([row[1] for row in matrix])
+print([[row[i] for row in matrix]for i in range(4)])
 
 #第二种方法
 # transposed=[]

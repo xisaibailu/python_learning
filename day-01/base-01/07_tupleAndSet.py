@@ -30,4 +30,4 @@ print(a ^ b)  # 在a或b中的字母，但不同时在a和b中
 
 # 集合也支持推导式
 c = {x for x in a if x not in 'abc'}
-print(c)
+print("set推导式",c)

@@ -15,4 +15,4 @@ class child(parent):
 c = child()  # 子类实例
 c.myMethod()  # 子类调用重写方法
 super(child, c).myMethod()  # 用子类对象调用父类已被覆盖的方法
-c.myPrivateMethod()  # 报错，外部不能调用私有方法
+# c.myPrivateMethod()  # 报错，外部不能调用私有方法

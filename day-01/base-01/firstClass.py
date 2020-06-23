@@ -11,8 +11,9 @@ class MyNumber:
         else:
             raise StopIteration
 
-
+#实例化类
 myclass = MyNumber()
+
 myiter = iter(myclass)
 
 for x in myclass:

@@ -81,3 +81,5 @@ while True:
     except StopIteration:
         sys.exit()
 
+while True:
+    pass
